@@ -1,0 +1,3 @@
+First i created a connection using mongoose in connection.js then i created a model in taskModel.js where i put a validation then i created a controller in controller i imported taskmodel.js using it i have done the CRUD operation
+where user can preform tasks like create, getAll, getSingleById, update By Id and delete By Id.After creating controller i created routes in that file i imported all functionality usin taskController.js and i created 
+routes using express.Router and then i imported routes and connection file in the main App.js file.for creating this API i used express,dotenv,mongoose,Atlas Database and for testing i used POSTman
